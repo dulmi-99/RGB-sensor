@@ -179,12 +179,7 @@ void temp() {
           analogWrite(green_, 255 - gr_avg);
           analogWrite(blue_, 255 - bl_avg);
         }
-        char chr = customKeypad.getKey();
-        if(chr){
-          flag=false;
-          finish=true;
-          Serial.print("##");
-          }
+        delay(900);
 
 
         
